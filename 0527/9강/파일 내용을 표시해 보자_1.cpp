@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	FILE *f = fopen("¼³¹®Á¶»ç.txt", "r");
+	FILE *f = fopen("Â¼Â³Â¹Â®ÃÂ¶Â»Ã§.txt", "r");
 	char s[10] = {0, };
 	
 	fscanf(f, "%s", s);
